@@ -2,10 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon index.js"
+    "dev" : "nodemon index.js",
+    "test": "echo \"No tests configured\" && exit 0"
   },
   "keywords": [],
   "author": "",
